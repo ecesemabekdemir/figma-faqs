@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8eeff;
+  background-image: url(../picture/background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  width: 600px;
+  margin-inline: auto;
+  margin-top: 180px;
+  margin-bottom: 20px;
+  padding: 40px;
+  padding-bottom: 16px;
+  border: 1px solid #111111;
+  border-radius: 16px;
+  box-shadow: 0px 32px 56px rgba(81, 0, 118, 0.384);
+  background-color: white;
+  
+}
+
+.container summary {
+  font-weight: bold;
+  color: rgba(48, 21, 52, 1);
+  list-style: none;
+  background: url(../picture/Vector.png) right center no-repeat ;
+  background-repeat: no-repeat;
+  padding-block: 24px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.container details {
+  border-bottom: 1px solid #ccc;
+ 
+} 
+
+.container details [open] summary {
+  padding-bottom: 24px;
+  background: url(../picture/ph_minus-circle-fill.jpg);
+}
+
+.container details:last-child {
+  border-bottom: 0;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.header h1 {
+  font-size: 56px;
+  padding-left: 24px;
+  color: Dark Purple;
+  font-weight: 700px;
+}
+p {
+  color:rgba(139, 105, 144, 1);
+}
+
